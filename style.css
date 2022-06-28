@@ -1,0 +1,46 @@
+h1{
+    margin: 100px auto 50px;
+    width: max-content;
+    
+}
+
+#my-calculator{
+    /* width: max-content; */
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputs input{
+    width: 38%;
+    height: 40px;
+    font-size: 30px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 110px;
+    max-height: 200px;
+    height: 100%;
+    margin: 50px;
+    gap: 50px;
+}
+.buttons button{
+    width: 110px;
+    height: 110px;
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+}

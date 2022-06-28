@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>My calculator</h1>
+    <section id="my-calculator">
+        <div class="inputs">
+            <input type="text" class="first-number">
+            <input type="text" class="second-number">
+        </div>
+        <div class="buttons">
+            <button class="add" v-on:click="add">+</button>
+            <button class="reduce" v-on:click="reduce">-</button>
+            <button class="multiply" v-on:click="multiply">*</button>
+            <button class="divide" v-on:click="divide">/</button>
+        </div>
+         <p>{{result}}</p>
+    </section>
+</body>
+</html>
